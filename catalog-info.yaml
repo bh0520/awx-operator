@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: awx-operator
+  description: |
+    AWX operator for Anisible.
+  annotations:
+    github.com/project-slug: dexcomit/awx-operator
+spec:
+  type: terraform
+  owner: dexcomit/it-devops
+  system: devops
+  lifecycle: production
